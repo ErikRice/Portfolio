@@ -1,0 +1,206 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+#myNavbar{
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    font-weight: bold !important; 
+}
+
+.navbar {
+    padding: 0 !important; 
+    margin: 0 !important;
+}
+
+.container-fluid{
+    background: #4A6E8B;
+}
+
+.mainContent{
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 2% 2% 20% 20% 1fr 1fr 1fr ;
+}
+
+.name{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    color: white;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    letter-spacing: .5em;
+    background-color: #4A6E8B;
+    margin: 0;
+    padding: 10px;
+    z-index: 2;
+}
+
+.nameLines:before {
+    content:"";
+    display: block;
+    position: absolute;
+    width: 34%;
+    height: 2px;
+    top: 10%;
+    left: 0;
+    background: black;
+    z-index: 3;
+}
+
+.nameLines:after{
+    content: '';
+    display: block;
+    position:absolute;
+    width: 36%;
+    height: 2px;
+    top: 10%;
+    right: 0;
+    background: black;
+    z-index: 2;
+}
+
+.bioDiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.bioWrapper {
+    grid-row: 3;
+    grid-column: 2 / 4;
+    align-content: center;
+    padding: 20px;
+    align-items: center;
+    float: center;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+.bioVideo {
+    position: relative;
+    padding-bottom: 56.25%;
+  }
+  
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+#imgContainer {
+    grid-row: 6 / 7;
+    grid-column: 2 / 3;
+    place-self: start;
+}
+
+.imgWrap {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: outset white;
+}
+
+.aboutParagraph {
+    display: block;
+    grid-row: 6 / 7;
+    grid-column: 3 / 4;
+    place-self: center;
+    border-top: solid black;
+    border-bottom: solid black;
+    border-width: 2px;
+    
+}
+
+#aboutTitle {
+    color: white;
+    place-self: top;
+    grid-row: 5 / 6;
+}
+
+.bioP {
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+#socialInvite {
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    grid-row: 1;
+    grid-column: 3;
+    border-bottom: solid black;
+    border-width: 2px;
+    padding: 5%;
+}
+
+
+.mediaIcons {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.linkedinContainer {
+    grid-row: 2;
+    grid-column: 2;
+    place-self: center;
+}
+
+.linkedinIcon {
+    height: 3em;
+    background: white;
+    border: solid black;
+    border-radius: 16%;
+}
+
+.emailContainer {
+    grid-row: 2;
+    grid-column: 3;
+    place-self: center;  
+}
+
+.emailIcon {
+    height: 3em;
+    display: block;
+    background: white;
+    border: solid black;
+    border-radius: 50%;
+}
+
+.githubContainer {
+    grid-row: 2;
+    grid-column: 4;
+    place-self: center;
+}
+
+.githubIcon {
+    height: 3em;
+    display: block;
+    background: white;
+    border: solid black;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

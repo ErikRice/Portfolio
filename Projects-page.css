@@ -1,0 +1,223 @@
+body {
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    margin-bottom: 20%;
+}
+#myNavbar{
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    font-weight: bold !important;    
+}
+
+.navbar {
+    padding: 0 !important; 
+    margin: 0 !important;
+}
+
+.container-fluid{
+    background: #4A6E8B;
+}
+
+.nav-link active {
+    font-weight: bold !important;
+}
+
+.name{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    text-align: center;
+    letter-spacing: .5em;
+    background-color: #4A6E8B;
+    margin: 0;
+    padding: 10px;
+}
+
+.nameLines:before {
+    content:"";
+    display: block;
+    position: absolute;
+    width: 35%;
+    height: 2px;
+    top: 10%;
+    left: 0;
+    background: black;
+    z-index: 3;
+}
+
+.nameLines:after{
+    content: "";
+    display: block;
+    position:absolute;
+    width: 37%;
+    height: 2px;
+    top: 10%;
+    right: 0;
+    background: black;
+    z-index: 3;
+}
+
+.mainContent{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 12% 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+
+}
+
+.button-1{
+    position: relative;
+    display: block;
+    background-color: rgb(121, 170, 177);
+    border: solid black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    place-self:center;
+    padding-top: 1.5em;
+    border-radius: 5%;
+    width: 160px;
+    height: 80px;
+    grid-row: 2;
+    grid-column: 2 / 3;
+}
+
+.button-1:hover{
+    color: white;
+    background: black;
+}
+
+.pacmenDescription{
+    display: inline-block;
+    place-self: center;
+    padding-top: 5%;
+    grid-row: 2;
+    grid-column: 3 / 4;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sectionLine-1 {
+    display: block;
+    grid-row: 3;
+    grid-column: 2 / 4;
+    background: black;
+    height: 2px;
+    width: 100%;
+    align-self: center;
+}
+
+.button-2{
+    position: relative;
+    display: block;
+    background-color: gold;
+    border: solid black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    place-self: center;
+    padding-top: 1.5em;
+    border-radius: 5%;
+    width: 160px;
+    height: 80px;
+    grid-row: 4;
+    grid-column: 2 / 3;
+}
+
+.eyesDescription{
+    display: inline-block;
+    place-self: center;
+    padding-top: 5%;
+    grid-row: 4;
+    grid-column: 3 / 4;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sectionLine-2 {
+    display: block;
+    grid-row: 5;
+    grid-column: 2 / 4;
+    background: black;
+    height: 2px;
+    width: 100%;
+    align-self: center;
+}
+
+.button-3{
+    position: relative;
+    display: block;
+    background-color: goldenrod;
+    border: solid black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    place-self: center;
+    padding-top: 1.5em;
+    border-radius: 5%;
+    width: 160px;
+    height: 80px;
+    grid-row: 6;
+    grid-column: 2 / 3;
+}
+
+.busDescription {
+    display: inline-block;
+    place-self: center;
+    padding: 5%;
+    grid-row: 6;
+    grid-column: 3 / 4;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mediaIcons {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.linkedinContainer {
+    grid-row: 1;
+    grid-column: 2;
+    place-self: center;
+
+}
+.linkedinIcon {
+    height: 3em;
+    background: white;
+    border-radius: 8%;
+}
+
+.emailContainer {
+    grid-row: 1;
+    grid-column: 3;
+    place-self: center;
+    background: white;
+    border-radius: 50%;
+    
+}
+
+.emailIcon {
+    height: 3em;
+    display: block;
+}
+
+.githubContainer {
+    grid-row: 1;
+    grid-column: 4;
+    place-self: center;
+    background: white;
+    border-radius: 50%;
+}
+
+.githubIcon {
+    height: 3em;
+    display: block;
+}

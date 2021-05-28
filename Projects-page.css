@@ -65,7 +65,7 @@ body {
 
 }
 
-.button-1{
+.Demo-button-1 {
     position: relative;
     display: block;
     background-color: rgb(121, 170, 177);
@@ -75,21 +75,46 @@ body {
     font-family: Helvetica, sans-serif;
     color: black;
     text-align: center;
-    place-self:center;
-    padding-top: 1.5em;
+    padding-top: 2%;
+    place-self: center start;
     border-radius: 5%;
     width: 160px;
-    height: 80px;
+    height: 50px;
     grid-row: 2;
     grid-column: 2 / 3;
 }
 
-.button-1:hover{
-    color: white;
-    background: black;
+.Demo-button-1:hover {
+    color: black;
+    background: white;
 }
 
-.pacmenDescription{
+.Repo-button-1 {
+    position: relative;
+    display: block;
+    background-color: rgb(121, 170, 177);
+    border: solid black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin-right: 15%;
+    padding-top: 2%;
+    place-self: center end;
+    border-radius: 5%;
+    width: 160px;
+    height: 50px;
+    grid-row: 2;
+    grid-column: 2 / 3;
+}
+
+.Repo-button-1:hover {
+    color: black;
+    background: white;
+}
+
+.pacmenDescription {
     display: inline-block;
     place-self: center;
     padding-top: 5%;
@@ -109,23 +134,53 @@ body {
     align-self: center;
 }
 
-.button-2{
+.Demo-button-2 {
     position: relative;
     display: block;
-    background-color: gold;
+    background-color: rgb(75, 131, 94);
     border: solid black;
     text-decoration: none;
     font-weight: bold;
     font-family: Helvetica, sans-serif;
     color: black;
     text-align: center;
-    place-self: center;
-    padding-top: 1.5em;
+    padding-top: 2%;
+    place-self: center start;
     border-radius: 5%;
     width: 160px;
-    height: 80px;
+    height: 50px;
     grid-row: 4;
     grid-column: 2 / 3;
+}
+
+.Demo-button-2:hover {
+    color: black;
+    background: white;
+}
+
+.Repo-button-2 {
+    position: relative;
+    display: block;
+    background-color: rgb(75, 131, 94);
+    border: solid black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+    margin-right: 15%;
+    place-self:center end;
+    border-radius: 5%;
+    width: 160px;
+    height: 50px;
+    grid-row: 4;
+    grid-column: 2 / 3;
+}
+
+.Repo-button-2:hover {
+    color: black;
+    background: white;
 }
 
 .eyesDescription{
@@ -148,29 +203,59 @@ body {
     align-self: center;
 }
 
-.button-3{
+.Demo-button-3 {
     position: relative;
     display: block;
-    background-color: goldenrod;
+    background-color: rgb(77, 108, 248);
     border: solid black;
     text-decoration: none;
     font-weight: bold;
     font-family: Helvetica, sans-serif;
     color: black;
     text-align: center;
-    place-self: center;
-    padding-top: 1.5em;
+    padding-top: 2%;
+    place-self: center start;
     border-radius: 5%;
     width: 160px;
-    height: 80px;
+    height: 50px;
     grid-row: 6;
     grid-column: 2 / 3;
+}
+
+.Demo-button-3:hover {
+    color: black;
+    background: white;
+}
+
+.Repo-button-3 {
+    position: relative;
+    display: block;
+    background-color: rgb(77, 108, 248);
+    border: solid black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin-right: 15%;
+    place-self:center end;
+    padding-top: 2%;
+    border-radius: 5%;
+    width: 160px;
+    height: 50px;
+    grid-row: 6;
+    grid-column: 2 / 3;
+}
+
+.Repo-button-3:hover {
+    color: black;
+    background: white;
 }
 
 .busDescription {
     display: inline-block;
     place-self: center;
-    padding: 5%;
+    padding-top: 5%;
     grid-row: 6;
     grid-column: 3 / 4;
     color: white;
